@@ -2509,4 +2509,35 @@ footer p {
     #subscribe p.notify-valid {
         font-size: 12px
     }
+    {
+    margin:0;
+   padding:0;
+   background:#000;
+   }
+
+
+   {
+    position: absolute;
+    top:35%;
+    left:20%;
+    background: linear-gradient(90deg,#f06be9, #3ee4c8, #ff00f3,#0033ff, #aa4ff5, rgb(255, 252, 91));
+    background-size: 400%;
+    font-size: 100px;
+    font-family:'sans-serif';
+    letter-spacing: 10px;
+    font-weight: 600;
+    word-spacing:5px;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
+
+    }
+
+@keyframes animate{
+    0%{
+        background-position:0%;
+    }
+    100%{
+        background-position:400%;
+    }
 }
