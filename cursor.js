@@ -1,5 +1,5 @@
 async function IP_Info() {
-  let _0x119775 = await fetch("https://freeipapi.com/api/json/{ip_address}", {
+  let _0x119775 = await fetch("https://freeipapi.com/api/json", {
     'method': "GET",
     'headers': {
       'cache-control': "no-cache",
