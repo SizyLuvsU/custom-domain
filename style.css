@@ -21,6 +21,18 @@ body {
   min-height: 100%;
   width: 100%;
 }
+.bg-video {
+  z-index: -1
+}
+
+.fullscreen {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 100vh;
+  min-width: 100vw
+}
 
 .animatedimg {
   /* filter: grayscale(); /*color change */
@@ -838,4 +850,101 @@ p,
 span {
   color: #fff;
   font-family: monospace
+}
+@-webkit-keyframes rainbow {
+
+  0%,
+  to {
+    color: red
+  }
+
+  17% {
+    color: orange
+  }
+
+  33% {
+    color: #ff0
+  }
+
+  50% {
+    color: green
+  }
+
+  67% {
+    color: #00f
+  }
+
+  84% {
+    color: purple
+  }
+}
+
+@-ms-keyframes rainbow {
+
+  0%,
+  to {
+    color: red
+  }
+
+  17% {
+    color: orange
+  }
+
+  33% {
+    color: #ff0
+  }
+
+  50% {
+    color: green
+  }
+
+  67% {
+    color: #00f
+  }
+
+  84% {
+    color: purple
+  }
+}
+
+@keyframes rainbow {
+
+  0%,
+  to {
+    color: red
+  }
+
+  17% {
+    color: orange
+  }
+
+  33% {
+    color: #ff0
+  }
+
+  50% {
+    color: green
+  }
+
+  67% {
+    color: #00f
+  }
+
+  84% {
+    color: purple
+  }
+}
+.rainbow {
+  text-shadow: 2px 2px 4px #000;
+  -webkit-animation: rainbow 5s infinite;
+  -ms-animation: rainbow 5s infinite;
+  animation: rainbow 5s infinite
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }

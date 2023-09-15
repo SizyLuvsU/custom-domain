@@ -1,4 +1,4 @@
-var colour="white";
+var colour="random";
 		var sparkles=50;
 		var x=ox=400;
 		var y=oy=300;
