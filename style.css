@@ -23,6 +23,7 @@ body {
 }
 .bg-video {
   z-index: -1
+  filter: brightness(55%)
 }
 
 .fullscreen {
@@ -36,7 +37,8 @@ body {
 
 .animatedimg {
   /* filter: grayscale(); /*color change */
-  width: 160px;
+  width: 1920px;
+  height: 1080px;
   -webkit-transform-origin: 50% 0;
   transform-origin: 50% 0;
   -webkit-animation: swinging 8s ease-in-out forwards infinite;
@@ -51,7 +53,7 @@ body {
     -webkit-transform: rotate(0deg);
   }
   50% {
-    -webkit-transform: rotate(-5deg);
+    -webkit-transform: rotate(0deg);
   }
   0% {
     -webkit-transform: rotate(0deg);
@@ -63,7 +65,7 @@ body {
     transform: rotate(0deg);
   }
   50% {
-    transform: rotate(-5deg);
+    transform: rotate(0deg);
   }
   0% {
     transform: rotate(0deg);
