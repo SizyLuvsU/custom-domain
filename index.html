@@ -26,6 +26,22 @@
   <link rel="stylesheet" href="mediascreen.css">
 </head>
 
+<script type="text/javascript">
+  function setZoom() {
+    if (window.matchMedia('(min-width: 780px) and (max-width: 1280px)').matches) {
+      document.body.style.zoom = "70%";
+    } else {
+      document.body.style.zoom = "80%";
+    }
+  }
+ 
+  // Call the function to set the zoom on page load
+  setZoom();
+ 
+  // Handle the window resize event
+  window.addEventListener('resize', setZoom);
+</script>
+
 <script src="files/oneko.js"></script>
 <script>
 oneko();
@@ -296,12 +312,5 @@ jQuery.Event.prototype.stopPropagation = function() {
 
 </script>
 <script defer="" src="files/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon="{&quot;rayId&quot;:&quot;792fc0215c94953a&quot;,&quot;token&quot;:&quot;033c33a962e74d16be982c1223e03590&quot;,&quot;version&quot;:&quot;2022.11.3&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
-
-<div>
-	
-<script type="text/javascript">
-    function zoom() {
-        document.body.style.zoom = "90%" 
-    }
 
 </div><style type="text/css">.typewrite > .wrap { border-right: 0.08em solid #fff}</style></div></body></html>
